@@ -13,6 +13,11 @@
   }
 }
 
+.body{
+  background-color: #a60413;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +40,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image{
+
+  padding-top: 15px;
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
 }
